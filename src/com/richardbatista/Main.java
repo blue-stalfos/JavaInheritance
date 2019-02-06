@@ -7,6 +7,7 @@ public class Main {
 
         Dog dog = new Dog("Yorkie", 8, 20, 2, 4, 1, 20, "long silky");
         dog.eat(); // Inherited from Animal class
-
+        dog.walk();
+        dog.run();
     }
 }
